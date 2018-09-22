@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="fb" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#355088</item>
+        <item name="colorAccent">#355088</item>
+
+    </style>
+
+    <style name="all" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+
+    </style>
+
+
+    <style name="linkedin" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#0077b5</item>
+        <item name="colorAccent">#0077b5</item>
+
+    </style>
+
+    <style name="youtube" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#CC181E</item>
+        <item name="colorAccent">#CC181E</item>
+
+    </style>
+
+
+    <style name="gmail" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#dd4b39</item>
+        <item name="colorAccent">#dd4b39</item>
+
+    </style>
+
+
+    <style name="twitter" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#00aced</item>
+        <item name="colorAccent">#00aced</item>
+
+    </style>
+
+    <style name="insta" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#c8cccd</item>
+        <item name="colorAccent">#6a1b9a</item>
+
+    </style>
+
+    <style name="quora" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#AA2200</item>
+        <item name="colorAccent">#AA2200</item>
+
+    </style>
+
+    <style name="reddit" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#ff4500</item>
+        <item name="colorAccent">#ff4500</item>
+
+    </style>
+
+
+    <style name="google" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#bdbdbd</item>
+        <item name="colorAccent">#8bc34a</item>
+
+    </style>
+
+    <style name="sayatme" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#4b006e</item>
+        <item name="colorAccent">#66009a</item>
+
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2"
+    android:versionName="1.1"
+    package="my.awe.apple.instagram">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".all"
+            android:theme="@style/all"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/insta" />
+        <activity
+            android:name=".fb"
+            android:theme="@style/fb" />
+        <activity
+            android:name=".youtube"
+            android:theme="@style/youtube" />
+        <activity
+            android:name=".linkedin"
+            android:theme="@style/linkedin" />
+        <activity
+            android:name=".gmail"
+            android:theme="@style/gmail" />
+        <activity
+            android:name=".twitter"
+            android:theme="@style/twitter" />
+        <activity
+            android:name=".quora"
+            android:theme="@style/quora" />
+        <activity
+            android:name=".reddit"
+            android:theme="@style/reddit" />
+        <activity
+            android:name=".google"
+            android:theme="@style/google" />
+        <activity
+            android:name=".sayatme"
+            android:theme="@style/sayatme" />
+    </application>
+
+</manifest>
